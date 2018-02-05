@@ -1,3 +1,6 @@
+A simple chrome extension that uses AJAX to pull from Google New's Real Simple Syndication Feeds.
+
+
 In Manifest.json:
   manifest_version must be included.
   name: refers to the name that is shown in the chrome://extensions page
