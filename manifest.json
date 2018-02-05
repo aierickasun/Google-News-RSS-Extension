@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Google News RSS Fetcher",
+  "version": "0.1",
+
+  "description": "Grabs World News from news.google.com via RSS",
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "homepage_url": "http://news.google.com/",
+  "background":{
+    "page": "background.html"
+  },
+  "permissions": [
+    "https://news.google.com/news/*"
+  ],
+  "browser_action":{
+      "default_icon": "images/icon.png",
+      "default_title": "Google News Notifier",
+      "default_popup": "popup.html"
+  }
+}

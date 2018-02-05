@@ -1,0 +1,9 @@
+#popup{
+  width: 500px;
+  height: 500px;
+  overflow-y: scroll;
+}
+.news_container{
+  border: 5px 5px;
+  border-color: red;
+}
